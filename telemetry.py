@@ -2,12 +2,16 @@ import fastf1 as ff
 import pandas as pd
 import logging
 import streamlit as st
+import os
 
 logging.getLogger("fastf1").setLevel(logging.ERROR)
 
 @st.cache_data(show_spinner="Loading Race Data...")
 def load_session_data(year, circuit, racetype):
     CACHE = "./fastf1_cache"
+    if not os.path.exists(CACHE):
+        os.makedirs(CACHE)
+        
     ff.Cache.enable_cache(CACHE)
     
     session = ff.get_session(year, circuit, racetype)
