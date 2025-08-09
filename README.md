@@ -8,7 +8,7 @@ A multi-year Formula 1 dashboard that provides in-depth analysis of driver perfo
 
 ---
 
-## ## Features
+## Features
 
 * **Driver Deep-Dive Page:**
     * **Dynamic Data Loading:** Select any driver, circuit, and session from the **2018-2024** seasons.
@@ -22,7 +22,7 @@ A multi-year Formula 1 dashboard that provides in-depth analysis of driver perfo
     * **Live Predictions:** Uses a pre-trained, circuit-specific machine learning model (XGBoost or LightGBM) to predict the lap time for the selected scenario.
     * **AI Commentator:** Leverages the **Google Gemini API** to generate a fun, witty, broadcast-style commentary on the predicted lap time.
 
-## ## Tech Stack
+## Tech Stack
 
 * **Language:** Python
 * **Data & Analysis:** Pandas, NumPy, Scikit-learn
@@ -34,7 +34,7 @@ A multi-year Formula 1 dashboard that provides in-depth analysis of driver perfo
 
 ---
 
-## ## Local Setup & Installation
+## Local Setup & Installation
 
 1.  **Clone the repository:**
     ```bash
