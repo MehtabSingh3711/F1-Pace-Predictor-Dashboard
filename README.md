@@ -4,7 +4,7 @@
 
 A multi-year Formula 1 dashboard that provides in-depth analysis of driver performance, race strategy, and includes a live, machine-learning-powered lap time predictor.
 
-**Live App Link:** [Link to your deployed Streamlit app will go here]
+**Live App Link:** https://f1-pace-predictor-dashboard.streamlit.app/
 
 ---
 
