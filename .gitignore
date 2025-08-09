@@ -1,0 +1,17 @@
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large model files
+models/
+
+# Large data files
+*.csv
+
+# FastF1 cache
+fastf1_cache/
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+.venv
+venv/

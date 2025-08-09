@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#FF1801"        # Ferrari Red / F1TV red
+backgroundColor="#0D0D0D"     # Deep black background
+secondaryBackgroundColor="#1A1A1A"  # Card panels / dropdowns
+textColor="#FFFFFF"           # Pure white text
+font="sans serif"
