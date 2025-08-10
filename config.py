@@ -93,6 +93,7 @@ LOCATION_TO_EVENT_NAME_MAP = {
     'Monaco': 'Monaco Grand Prix',
     'Montreal': 'Canadian Grand Prix',
     'Circuit de Barcelona-Catalunya': 'Spanish Grand Prix',
+    'Barcelona': 'Spanish Grand Prix',
     'Spielberg': 'Austrian Grand Prix',
     'Silverstone': 'British Grand Prix',
     'Hungaroring': 'Hungarian Grand Prix',
