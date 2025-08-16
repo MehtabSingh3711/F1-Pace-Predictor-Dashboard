@@ -49,10 +49,6 @@ def generate_telemetry_plots(lap_telemetry):
     return fig_speed, fig_throttle, fig_brake, fig_rpm, fig_gear 
 
 def generate_strategy_plot(driver_laps):
-    """
-    Generates a Gantt chart style plot to visualize tyre strategy.
-    This version is built manually with graph_objects for reliability.
-    """
     if driver_laps.empty:
         return None
 
@@ -63,7 +59,6 @@ def generate_strategy_plot(driver_laps):
         Driver=('Driver', 'first')
     ).reset_index()
 
-    # Define tyre colors
     compound_colors = {
         'SOFT': '#FF3333',
         'MEDIUM': '#FFF200',
@@ -96,7 +91,6 @@ def generate_strategy_plot(driver_laps):
         ))
         seen_compounds.add(compound)
 
-    # 3. Style the layout
     fig.update_layout(
         title="Tyre Strategy and Stint Lengths",
         xaxis_title="Lap Number",

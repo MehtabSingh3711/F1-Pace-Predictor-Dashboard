@@ -1,4 +1,3 @@
-# ----------- CONSTANTS -----------
 CIRCUITS_2024 = [
     'Bahrain', 'Jeddah', 'Melbourne', 'Suzuka', 'Shanghai', 'Miami',
     'Imola', 'Monaco', 'Montreal', 'Barcelona', 'Spielberg', 'Silverstone',
